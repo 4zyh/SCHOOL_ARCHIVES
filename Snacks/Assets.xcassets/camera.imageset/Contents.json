@@ -8,4 +8,5 @@
     {
       "idiom" : "universal",
       "filename" : "camera@2x.png",
-   
+      "scale" : "2x"
+    
