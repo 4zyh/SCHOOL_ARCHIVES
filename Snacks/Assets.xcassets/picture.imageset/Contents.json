@@ -3,4 +3,6 @@
     {
       "idiom" : "universal",
       "filename" : "picture@1x.png",
-      "sca
+      "scale" : "1x"
+    },
+    {
