@@ -13,4 +13,6 @@
     {
       "idiom" : "universal",
       "filename" : "picture@3x.png",
-      "scale
+      "scale" : "3x"
+    }
+  ],
