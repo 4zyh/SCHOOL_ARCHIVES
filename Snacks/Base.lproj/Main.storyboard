@@ -4,4 +4,4 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" 
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1
