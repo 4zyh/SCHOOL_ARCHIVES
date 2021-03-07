@@ -5,4 +5,4 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Safe area layout guides" mi
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/
