@@ -14,4 +14,4 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HealthySnacks" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="fram
+                        <rect key="frame" x="0.0" y="0
