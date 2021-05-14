@@ -19,4 +19,4 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eJE-IF-AKs">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-    
+                   
