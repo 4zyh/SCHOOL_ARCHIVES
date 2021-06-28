@@ -22,4 +22,4 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTk-dd-Dny">
-                                <rect key="frame" x="227.5" 
+                                <rect key="frame" x="227.5" y="587" width="60" h
