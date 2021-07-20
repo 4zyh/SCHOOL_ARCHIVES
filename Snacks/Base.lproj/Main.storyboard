@@ -25,4 +25,4 @@
                                 <rect key="frame" x="227.5" y="587" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="yMD-Zh-KXQ"/>
-                                    <constraint firstAttribute
+                                    <constraint firstAttribute="width" constant=
