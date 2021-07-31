@@ -28,4 +28,4 @@
                                     <constraint firstAttribute="width" constant="60" id="yNq-bV-hhg"/>
                                 </constraints>
                                 <state key="normal" image="camera">
-                                    <color key="titleCol
+                                    <color key="titleColor" white="1" alph
