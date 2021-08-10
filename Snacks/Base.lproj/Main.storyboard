@@ -31,4 +31,4 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="takePicture" destination="BYZ-38-t0r" eventType="touch
+                                    <action selector="takePicture" destination="BYZ-38-t0r" eventType="touchUpInside" id="GDk-D2-mS4"/>
