@@ -32,4 +32,4 @@
                                 </state>
                                 <connections>
                                     <action selector="takePicture" destination="BYZ-38-t0r" eventType="touchUpInside" id="GDk-D2-mS4"/>
-                          
+                                </co
