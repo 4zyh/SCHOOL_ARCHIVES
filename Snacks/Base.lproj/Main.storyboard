@@ -37,4 +37,4 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFV-04-jMK">
                                 <rect key="frame" x="87.5" y="587" width="60" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute=
+                                    <constraint firstAttribute="width" constant
