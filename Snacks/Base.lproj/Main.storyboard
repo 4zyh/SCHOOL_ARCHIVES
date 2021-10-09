@@ -40,4 +40,5 @@
                                     <constraint firstAttribute="width" constant="60" id="0M7-BR-n1X"/>
                                     <constraint firstAttribute="height" constant="60" id="dm4-wB-Lpd"/>
                                 </constraints>
-                                <state key="normal" image
+                                <state key="normal" image="picture">
+  
