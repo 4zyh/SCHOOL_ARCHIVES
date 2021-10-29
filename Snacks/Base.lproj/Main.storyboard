@@ -46,4 +46,5 @@
                                 <connections>
                                     <action selector="choosePhoto" destination="BYZ-38-t0r" eventType="touchUpInside" id="cxt-RO-Auo"/>
                                 </connections>
-                            </
+                            </button>
+        
