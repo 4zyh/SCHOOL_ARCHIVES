@@ -47,4 +47,5 @@
                                     <action selector="choosePhoto" destination="BYZ-38-t0r" eventType="touchUpInside" id="cxt-RO-Auo"/>
                                 </connections>
                             </button>
-                            <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8VS-v
+                            <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8VS-vB-ttV">
+                 
