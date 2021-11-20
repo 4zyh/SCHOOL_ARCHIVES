@@ -48,4 +48,4 @@
                                 </connections>
                             </button>
                             <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8VS-vB-ttV">
-                                <rect key="frame" x="102" y
+                                <rect key="frame" x="102" y="30" width="17
