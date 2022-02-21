@@ -62,4 +62,5 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="VnP-1c-kfJ" secondAttribute="trailing" constant="20" id="50w-Vw-ad6"/>
-                                        <constraint firstAttribute="bottom" secondItem="VnP-1c-kfJ" secondAttribute="bottom" constant="8" id="UIM-Zc
+                                        <constraint firstAttribute="bottom" secondItem="VnP-1c-kfJ" secondAttribute="bottom" constant="8" id="UIM-Zc-uJd"/>
+     
