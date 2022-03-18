@@ -69,4 +69,4 @@
                                 </view>
                                 <blurEffect style="extraLight"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="numbe
+                                    <userDefinedRuntimeAttribute type="number" keyPath="laye
