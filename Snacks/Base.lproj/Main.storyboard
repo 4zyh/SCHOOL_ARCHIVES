@@ -69,4 +69,5 @@
                                 </view>
                                 <blurEffect style="extraLight"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="laye
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+      
