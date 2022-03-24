@@ -70,4 +70,5 @@
                                 <blurEffect style="extraLight"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" va
+                                        <integer key="value" value="8"/>
+           
