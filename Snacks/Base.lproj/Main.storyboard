@@ -78,4 +78,4 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="XTk-dd-Dny" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-20" id="2An-Mf-hhb"/>
-                            <const
+                            <constraint firstItem="8VS-
