@@ -78,4 +78,5 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="XTk-dd-Dny" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-20" id="2An-Mf-hhb"/>
-                            <constraint firstItem="8VS-vB-ttV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xns-1A-Qk
+                            <constraint firstItem="8VS-vB-ttV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xns-1A-Qk9"/>
+                   
