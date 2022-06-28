@@ -87,4 +87,4 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="cameraButton" destination="XTk
+                        <outlet property="cameraButton" destination="XTk-dd-Dny" id="qu6-aY
