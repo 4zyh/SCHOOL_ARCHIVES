@@ -88,4 +88,4 @@
                     </view>
                     <connections>
                         <outlet property="cameraButton" destination="XTk-dd-Dny" id="qu6-aY-Nns"/>
-                        <outlet property="imageView" de
+                        <outlet property="imageView" destination="e
