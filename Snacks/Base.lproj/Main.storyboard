@@ -90,4 +90,4 @@
                         <outlet property="cameraButton" destination="XTk-dd-Dny" id="qu6-aY-Nns"/>
                         <outlet property="imageView" destination="eJE-IF-AKs" id="3gX-Jr-UDx"/>
                         <outlet property="photoLibraryButton" destination="qFV-04-jMK" id="BEA-zt-8sd"/>
-                        <ou
+                        <outlet property="results
