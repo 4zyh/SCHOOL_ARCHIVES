@@ -91,4 +91,5 @@
                         <outlet property="imageView" destination="eJE-IF-AKs" id="3gX-Jr-UDx"/>
                         <outlet property="photoLibraryButton" destination="qFV-04-jMK" id="BEA-zt-8sd"/>
                         <outlet property="resultsConstraint" destination="aq3-pg-dtV" id="sud-Nb-UOU"/>
-                        <outlet property="resultsLabel" destination="VnP-1c-kfJ" id=
+                        <outlet property="resultsLabel" destination="VnP-1c-kfJ" id="d5w-DT-9SX"/>
+     
