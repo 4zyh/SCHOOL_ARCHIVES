@@ -93,4 +93,5 @@
                         <outlet property="resultsConstraint" destination="aq3-pg-dtV" id="sud-Nb-UOU"/>
                         <outlet property="resultsLabel" destination="VnP-1c-kfJ" id="d5w-DT-9SX"/>
                         <outlet property="resultsView" destination="8VS-vB-ttV" id="Gk6-9o-3Iz"/>
-                    </connec
+                    </connections>
+    
