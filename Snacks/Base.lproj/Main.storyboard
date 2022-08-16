@@ -94,4 +94,4 @@
                         <outlet property="resultsLabel" destination="VnP-1c-kfJ" id="d5w-DT-9SX"/>
                         <outlet property="resultsView" destination="8VS-vB-ttV" id="Gk6-9o-3Iz"/>
                     </connections>
-    
+                </viewControl
