@@ -102,4 +102,5 @@
     </scenes>
     <resources>
         <image name="camera" width="60" height="60"/>
-        <image name="picture" width="6
+        <image name="picture" width="60" height="60"/>
+ 
