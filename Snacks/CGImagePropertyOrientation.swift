@@ -1,3 +1,4 @@
 import UIKit
 
-extension CGImagePropertyOrientatio
+extension CGImagePropertyOrientation {
+  init(_ orientation:
