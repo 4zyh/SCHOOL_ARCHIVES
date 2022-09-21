@@ -4,4 +4,5 @@ extension CGImagePropertyOrientation {
   init(_ orientation: UIImageOrientation) {
     switch orientation {
     case .up: self = .up
-    case .upMirrored: self = .upMirr
+    case .upMirrored: self = .upMirrored
+    case .down
