@@ -7,4 +7,4 @@ extension CGImagePropertyOrientation {
     case .upMirrored: self = .upMirrored
     case .down: self = .down
     case .downMirrored: self = .downMirrored
- 
+    case .left: se
