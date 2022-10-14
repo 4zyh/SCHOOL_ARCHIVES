@@ -15,4 +15,5 @@ extension CGImagePropertyOrientation {
   }
 }
 
-extension CGImagePropertyOrie
+extension CGImagePropertyOrientation {
+  ini
