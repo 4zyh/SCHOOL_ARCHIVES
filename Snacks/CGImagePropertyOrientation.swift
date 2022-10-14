@@ -16,4 +16,4 @@ extension CGImagePropertyOrientation {
 }
 
 extension CGImagePropertyOrientation {
-  ini
+  init(_ orientati
