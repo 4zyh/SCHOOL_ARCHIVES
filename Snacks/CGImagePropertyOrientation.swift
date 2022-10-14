@@ -16,4 +16,4 @@ extension CGImagePropertyOrientation {
 }
 
 extension CGImagePropertyOrientation {
-  init(_ orientati
+  init(_ orientation: UIDeviceOrientation)
