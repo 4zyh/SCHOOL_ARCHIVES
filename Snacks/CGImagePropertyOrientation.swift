@@ -18,4 +18,4 @@ extension CGImagePropertyOrientation {
 extension CGImagePropertyOrientation {
   init(_ orientation: UIDeviceOrientation) {
     switch orientation {
-    case .portraitUpside
+    case .portraitUpsideDown: self = .left
