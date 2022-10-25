@@ -20,4 +20,4 @@ extension CGImagePropertyOrientation {
     switch orientation {
     case .portraitUpsideDown: self = .left
     case .landscapeLeft: self = .up
-    case .land
+    case .landscapeRight: self 
