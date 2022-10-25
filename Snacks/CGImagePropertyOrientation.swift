@@ -21,4 +21,4 @@ extension CGImagePropertyOrientation {
     case .portraitUpsideDown: self = .left
     case .landscapeLeft: self = .up
     case .landscapeRight: self = .down
-  
+    default: 
