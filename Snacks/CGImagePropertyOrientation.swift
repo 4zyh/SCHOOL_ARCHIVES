@@ -22,4 +22,6 @@ extension CGImagePropertyOrientation {
     case .landscapeLeft: self = .up
     case .landscapeRight: self = .down
     default: self = .right
- 
+    }
+  }
+}
