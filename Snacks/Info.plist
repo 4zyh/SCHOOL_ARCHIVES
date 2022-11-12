@@ -5,4 +5,5 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
-	<string>$(EXECUTABL
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>C
