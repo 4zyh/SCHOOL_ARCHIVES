@@ -14,4 +14,4 @@
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
-	<key>CFBund
+	<key>CFBundleShortVersionString</k
