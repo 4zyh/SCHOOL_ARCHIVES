@@ -21,4 +21,5 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>Take pictures of snacks!</string
+	<string>Take pictures of snacks!</string>
+	<key>UILaun
