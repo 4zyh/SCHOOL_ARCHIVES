@@ -22,4 +22,5 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>Take pictures of snacks!</string>
-	<key>UILaunchStoryboardName<
+	<key>UILaunchStoryboardName</key>
+	<stri
