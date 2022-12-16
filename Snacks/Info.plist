@@ -24,4 +24,4 @@
 	<string>Take pictures of snacks!</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<key
+	<key>UIMainStoryboardFile</
