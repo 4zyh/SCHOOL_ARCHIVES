@@ -26,4 +26,6 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
-	<key>UIRequiredDeviceCapabi
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<st
