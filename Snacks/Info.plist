@@ -28,4 +28,4 @@
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
-		<st
+		<string>arm64</string>
