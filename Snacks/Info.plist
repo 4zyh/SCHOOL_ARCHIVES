@@ -30,4 +30,5 @@
 	<array>
 		<string>arm64</string>
 	</array>
-	<key>UIStatusBarStyle</k
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusB
