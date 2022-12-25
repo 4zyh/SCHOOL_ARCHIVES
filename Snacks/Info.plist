@@ -31,4 +31,5 @@
 		<string>arm64</string>
 	</array>
 	<key>UIStatusBarStyle</key>
-	<string>UIStatusBarStyleDefault</
+	<string>UIStatusBarStyleDefault</string>
+	<key>UISup
