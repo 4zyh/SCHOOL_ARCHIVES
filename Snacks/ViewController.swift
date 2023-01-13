@@ -25,3 +25,23 @@ class ViewController: UIViewController {
         } catch {
             fatalError("Failed to create VNCoreMLModel: \(error)")
         }
+    }()
+    
+  @IBOutlet var imageView: UIImageView!
+  @IBOutlet var cameraButton: UIButton!
+  @IBOutlet var photoLibraryButton: UIButton!
+  @IBOutlet var resultsView: UIView!
+  @IBOutlet var resultsLabel: UILabel!
+  @IBOutlet var resultsConstraint: NSLayoutConstraint!
+
+  var firstTime = true
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    cameraButton.isEnabled = UIImagePickerController.isSourceTypeAvailable(.camera)
+    resultsView.alpha = 0
+    resultsLabel.text = "choose or take a photo"
+  }
+
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
