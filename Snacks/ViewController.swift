@@ -45,3 +45,26 @@ class ViewController: UIViewController {
 
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
+
+    // Show the "choose or take a photo" hint when the app is opened.
+    if firstTime {
+      showResultsView(delay: 0.5)
+      firstTime = false
+    }
+  }
+  
+  @IBAction func takePicture() {
+    presentPhotoPicker(sourceType: .camera)
+  }
+
+  @IBAction func choosePhoto() {
+    presentPhotoPicker(sourceType: .photoLibrary)
+  }
+
+  func presentPhotoPicker(sourceType: UIImagePickerControllerSourceType) {
+    
+    let picker = UIImagePickerController()
+    picker.delegate = self
+    picker.sourceType = sourceType
+    present(picker, animated: true)
+    hideResultsView()
