@@ -83,3 +83,19 @@ class ViewController: UIViewController {
       self.resultsView.alpha = 1
       self.resultsConstraint.constant = -10
       self.view.layoutIfNeeded()
+    },
+    completion: nil)
+  }
+
+  func hideResultsView() {
+    UIView.animate(withDuration: 0.3) {
+      self.resultsView.alpha = 0
+    }
+  }
+
+    func classify(image: UIImage) {
+        
+        // 1 Converts the UIImage to a CIImage object.
+        guard let ciImage = CIImage(image: image) else {
+            print("Unable to create CIImage")
+            return
