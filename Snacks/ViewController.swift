@@ -68,3 +68,18 @@ class ViewController: UIViewController {
     picker.sourceType = sourceType
     present(picker, animated: true)
     hideResultsView()
+  }
+
+  func showResultsView(delay: TimeInterval = 0.1) {
+    resultsConstraint.constant = 100
+    view.layoutIfNeeded()
+
+    UIView.animate(withDuration: 0.5,
+                   delay: delay,
+                   usingSpringWithDamping: 0.6,
+                   initialSpringVelocity: 0.6,
+                   options: .beginFromCurrentState,
+                   animations: {
+      self.resultsView.alpha = 1
+      self.resultsConstraint.constant = -10
+      self.view.layoutIfNeeded()
