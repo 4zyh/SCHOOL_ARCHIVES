@@ -138,3 +138,12 @@ class ViewController: UIViewController {
 extension ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
   func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+   
+    picker.dismiss(animated: true)
+
+    let image = #imageLiteral(resourceName: "pLady")//info[UIImagePickerControllerOriginalImage] as! UIImage
+    imageView.image = image
+
+    classify(image: image)
+  }
+}
