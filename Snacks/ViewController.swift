@@ -113,3 +113,28 @@ class ViewController: UIViewController {
                 print("Failed to perform classification: \(error)")
             }
         }
+    }
+
+    func processObservations(for request: VNRequest, error: Error?) {
+        // 1 The request’s completion handler is called on the same background queue from which you launched the request. Because you’re only allowed to call UIKit methods from the main queue, the rest of the code in this method runs on the main queue.
+        DispatchQueue.main.async {
+
+            if let err = error {
+                self.resultsLabel.text = "error: \(err.localizedDescription)"
+            }
+
+            // 2 The request parameter is of type VNRequest, the base class of VNCoreMLRequest. If everything went well, the request’s results array contains one or more VNClassificationObservation objects. If the cast fails, it’s either because there was an error performing the request and results is nil, or the array contains a different type of observation object, which happens if the model isn’t actually a classifier or the Vision request object wasn’t for a Core ML model.
+            guard let results = request.results as? [VNClassificationObservation], !results.isEmpty else {
+                self.resultsLabel.text = "No results"
+                return
+            }
+
+            self.resultsLabel.text = String(format: "%@ %.1f%%",results[0].identifier, results[0].confidence * 100)
+            self.showResultsView()
+        }
+    }
+}
+
+extension ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+  func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
