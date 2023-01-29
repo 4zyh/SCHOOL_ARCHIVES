@@ -99,3 +99,17 @@ class ViewController: UIViewController {
         guard let ciImage = CIImage(image: image) else {
             print("Unable to create CIImage")
             return
+        }
+        // 2 The UIImage has an imageOrientation property that describes which way is up when the image is to be drawn. For example, if the orientation is "down," then the image should be rotated 180 degrees. You need to tell Vision about the image’s orientation so that it can rotate the image if necessary, since Core ML expects images to be upright.
+        let orientation = CGImagePropertyOrientation(image.imageOrientation)
+        // 3 Because it may take Core ML a moment or two to do all the calculations involved in the classification (recall that SqueezeNet does 390 million calculations for a single image), it is best to perform the request on a background queue, so as not to block the main thread.
+        DispatchQueue.global(qos: .userInitiated).async {
+            // 4 Create a new VNImageRequestHandler for this image and its orientation information, then call perform() to actually do execute the request. Note that perform() takes an array of VNRequest objects, so that you can perform multiple Vision requests on the same image if you want to. Here, you just use the VNCoreMLRequest object from the classificationRequest property you made earlier.
+            let handler = VNImageRequestHandler(ciImage: ciImage,
+                                                orientation: orientation)
+            do {
+                try handler.perform([self.classificationRequest])
+            } catch {
+                print("Failed to perform classification: \(error)")
+            }
+        }
