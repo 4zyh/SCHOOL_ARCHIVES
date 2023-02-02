@@ -14,3 +14,17 @@
 		7BF6C662204818EC00606217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF6C661204818EC00606217 /* ViewController.swift */; };
 		7BF6C665204818EC00606217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF6C663204818EC00606217 /* Main.storyboard */; };
 		7BF6C667204818ED00606217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF6C666204818ED00606217 /* Assets.xcassets */; };
+		7BF6C66A204818ED00606217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF6C668204818ED00606217 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		094CF20E21B8EAC800AE6C2A /* HealthySnacks.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HealthySnacks.mlmodel; sourceTree = "<group>"; };
+		7B11BA822048333700D790AA /* CGImagePropertyOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImagePropertyOrientation.swift; sourceTree = "<group>"; };
+		7BF6C65C204818EC00606217 /* HealthySnacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthySnacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF6C65F204818EC00606217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BF6C661204818EC00606217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BF6C664204818EC00606217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BF6C666204818ED00606217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BF6C669204818ED00606217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BF6C66B204818ED00606217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
