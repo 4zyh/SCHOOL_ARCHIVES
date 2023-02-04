@@ -44,3 +44,22 @@
 			isa = PBXGroup;
 			children = (
 				7BF6C65E204818EC00606217 /* Snacks */,
+				7BF6C65D204818EC00606217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BF6C65D204818EC00606217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BF6C65C204818EC00606217 /* HealthySnacks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BF6C65E204818EC00606217 /* Snacks */ = {
+			isa = PBXGroup;
+			children = (
+				7BF6C65F204818EC00606217 /* AppDelegate.swift */,
+				094CF20E21B8EAC800AE6C2A /* HealthySnacks.mlmodel */,
+				7BF6C661204818EC00606217 /* ViewController.swift */,
+				7B11BA822048333700D790AA /* CGImagePropertyOrientation.swift */,
