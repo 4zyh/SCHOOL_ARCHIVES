@@ -63,3 +63,20 @@
 				094CF20E21B8EAC800AE6C2A /* HealthySnacks.mlmodel */,
 				7BF6C661204818EC00606217 /* ViewController.swift */,
 				7B11BA822048333700D790AA /* CGImagePropertyOrientation.swift */,
+				7BF6C663204818EC00606217 /* Main.storyboard */,
+				7BF6C668204818ED00606217 /* LaunchScreen.storyboard */,
+				7BF6C666204818ED00606217 /* Assets.xcassets */,
+				7BF6C66B204818ED00606217 /* Info.plist */,
+			);
+			path = Snacks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BF6C65B204818EC00606217 /* HealthySnacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF6C66E204818ED00606217 /* Build configuration list for PBXNativeTarget "HealthySnacks" */;
+			buildPhases = (
+				7BF6C658204818EC00606217 /* Sources */,
+				7BF6C659204818EC00606217 /* Frameworks */,
