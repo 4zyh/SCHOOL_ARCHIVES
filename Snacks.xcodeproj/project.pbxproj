@@ -80,3 +80,18 @@
 			buildPhases = (
 				7BF6C658204818EC00606217 /* Sources */,
 				7BF6C659204818EC00606217 /* Frameworks */,
+				7BF6C65A204818EC00606217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthySnacks;
+			productName = HealthySnacks;
+			productReference = 7BF6C65C204818EC00606217 /* HealthySnacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BF6C654204818EC00606217 /* Project object */ = {
