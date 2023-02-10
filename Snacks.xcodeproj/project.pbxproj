@@ -136,3 +136,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BF6C658204818EC00606217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF6C662204818EC00606217 /* ViewController.swift in Sources */,
+				7BF6C660204818EC00606217 /* AppDelegate.swift in Sources */,
+				7B11BA832048333700D790AA /* CGImagePropertyOrientation.swift in Sources */,
+				094CF20F21B8EAC800AE6C2A /* HealthySnacks.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
