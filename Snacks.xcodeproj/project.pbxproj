@@ -120,3 +120,19 @@
 			projectRoot = "";
 			targets = (
 				7BF6C65B204818EC00606217 /* HealthySnacks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BF6C65A204818EC00606217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF6C66A204818ED00606217 /* LaunchScreen.storyboard in Resources */,
+				7BF6C667204818ED00606217 /* Assets.xcassets in Resources */,
+				7BF6C665204818EC00606217 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
