@@ -110,3 +110,13 @@
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BF6C653204818EC00606217;
+			productRefGroup = 7BF6C65D204818EC00606217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BF6C65B204818EC00606217 /* HealthySnacks */,
