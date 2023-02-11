@@ -152,3 +152,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		7BF6C663204818EC00606217 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BF6C664204818EC00606217 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BF6C668204818ED00606217 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BF6C669204818ED00606217 /* Base */,
+			);
