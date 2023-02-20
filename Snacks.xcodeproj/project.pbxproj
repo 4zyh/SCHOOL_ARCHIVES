@@ -324,3 +324,16 @@
 
 /* Begin XCConfigurationList section */
 		7BF6C657204818EC00606217 /* Build configuration list for PBXProject "Snacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF6C66C204818ED00606217 /* Debug */,
+				7BF6C66D204818ED00606217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF6C66E204818ED00606217 /* Build configuration list for PBXNativeTarget "HealthySnacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF6C66F204818ED00606217 /* Debug */,
+				7BF6C670204818ED00606217 /* Release */,
