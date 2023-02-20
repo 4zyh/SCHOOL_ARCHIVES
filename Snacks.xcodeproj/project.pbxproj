@@ -337,3 +337,11 @@
 			buildConfigurations = (
 				7BF6C66F204818ED00606217 /* Debug */,
 				7BF6C670204818ED00606217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BF6C654204818EC00606217 /* Project object */;
+}
